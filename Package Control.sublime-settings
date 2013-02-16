@@ -1,0 +1,27 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"Browser Refresh",
+		"CoffeeScript",
+		"ColorPick",
+		"Dayle Rees Color Schemes",
+		"DocBlockr",
+		"EasyMotion",
+		"Emmet",
+		"EncodingHelper",
+		"FileTemplates",
+		"Gist",
+		"Grails",
+		"Line Completion",
+		"MacTerminal",
+		"Nettuts+ Fetch",
+		"Package Control",
+		"Quick File Creator",
+		"QuickThemes",
+		"SideBarEnhancements",
+		"Stylus",
+		"Switch View in Group",
+		"Theme - Soda"
+	]
+}

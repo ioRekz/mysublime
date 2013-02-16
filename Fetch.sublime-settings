@@ -1,0 +1,16 @@
+{
+	"files":
+	{
+		"Q": "https://raw.github.com/kriskowal/q/master/q.min.js",
+		"chosen": "https://raw.github.com/harvesthq/chosen/master/chosen/chosen.jquery.min.js",
+		"chosencss": "https://raw.github.com/harvesthq/chosen/master/chosen/chosen.css",
+		"handlebars": "https://raw.github.com/wycats/handlebars.js/1.0.rc.2/dist/handlebars.js",
+		"jquery": "http://code.jquery.com/jquery.min.js",
+		"underscore": "http://underscorejs.org/underscore-min.js",
+		"zanimo": "https://raw.github.com/peutetre/Zanimo/master/build/zanimo.min.js"
+	},
+	"packages":
+	{
+		"html5_boilerplate": "https://github.com/h5bp/html5-boilerplate/zipball/master"
+	}
+}

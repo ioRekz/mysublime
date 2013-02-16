@@ -1,0 +1,13 @@
+{
+	"color_scheme": "Packages/Dayle Rees Color Schemes/Frontier.tmTheme",
+	"font_face": "Menlo",
+	"font_size": 12.0,
+	"ignored_packages":
+	[
+	],
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"use_simple_full_screen": false,
+	"use_tab_stops": false
+}
