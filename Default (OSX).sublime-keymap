@@ -1,6 +1,7 @@
 [
   { "keys": ["super+minus@"], "command": "decrease_font_size" },
-  { "keys": ["shift+super+,"], "command": "focus_group", "args": { "group": 0 } },
+  { "keys": ["shift+super+&"], "command": "focus_group", "args": { "group": 0 } },
+  { "keys": ["shift+super+é"], "command": "focus_group", "args": { "group": 1 } },
   {
       "keys": ["command+shift+r"], "command": "browser_refresh", "args": {
           "auto_save": true,
@@ -12,5 +13,16 @@
   { "keys": ["super+v"], "command": "paste_and_indent" },
   { "keys": ["ctrl+alt+up"], "command": "scroll_lines", "args": {"amount": 5.0} },
   { "keys": ["ctrl+alt+down"], "command": "scroll_lines", "args": {"amount": -5.0} },
-  { "keys": ["super+space"], "command": "move", "args": {"by": "subword_ends", "forward": true} }
+  { "keys": ["super+space"], "command": "move", "args": {"by": "subword_ends", "forward": true} },
+  { "keys": ["shift+space"], "command": "auto_complete" },
+  // Auto-pair single quotes
+  { "keys": ["'"], "command": "insert_snippet", "args": {"contents": "'"}, "context":
+    [
+      { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+      { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+      { "key": "following_text", "operator": "regex_contains", "operand": "^(?:\t| |\\)|]|\\}|>|$)", "match_all": true },
+      { "key": "preceding_text", "operator": "not_regex_contains", "operand": "['a-zA-Z0-9_]$", "match_all": true },
+      { "key": "eol_selector", "operator": "not_equal", "operand": "string.quoted.single", "match_all": true }
+    ]
+  }
 ]

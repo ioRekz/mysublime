@@ -6,6 +6,7 @@
 		"chosencss": "https://raw.github.com/harvesthq/chosen/master/chosen/chosen.css",
 		"handlebars": "https://raw.github.com/wycats/handlebars.js/1.0.rc.2/dist/handlebars.js",
 		"jquery": "http://code.jquery.com/jquery.min.js",
+		"select2": "https://raw.github.com/ivaynberg/select2/3.3.1/select2.min.js",
 		"underscore": "http://underscorejs.org/underscore-min.js",
 		"zanimo": "https://raw.github.com/peutetre/Zanimo/master/build/zanimo.min.js"
 	},

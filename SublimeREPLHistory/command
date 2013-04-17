@@ -1,0 +1,8 @@
+-1+1
+-(+ 1 1)
+-doc conj
+-(doc conj)
+-(conj '(:a :b) :e)
+-(doc pop)
+-(try\n          (pop '())\n          (catch IllegalStateException e\n            "No dice!")))
+-(doc subvec)
